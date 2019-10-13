@@ -16,7 +16,8 @@
 	padding-right: 4px;
 	padding-left: 4px;
 	transition-property: background-color;
-	transition-delay: 0.2s;
+	transition-timing-function: ease-in;
+	transition-duration:0.2s;
 }
 
 .navbutton:hover {

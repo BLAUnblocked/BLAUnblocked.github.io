@@ -1,6 +1,15 @@
+
+* {
+	font-family: "Hepta Slab";
+}
+
 #navbar {
 	width: 100%;
-	align-content: center;
 	background-color: black;
-	justify-content: center;
+}
+
+.navbutton {
+	text-decoration: none;
+	color:white;
+
 }

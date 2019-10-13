@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BLA Unblocked | [title]</title>
+		<link rel='stylesheet' type='text/css' href='/style.css'>
+		<link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id='navbar'>
+			<a class='navbutton' id='home' href='/'>Home</a>
+			<a class='navbutton' id='home' href='/games'>Games</a>
+			<a class='navbutton' id='home' href='/downloads'>Downloads</a>
+			<a class='navbutton' id='home' href='/about'>About</a>
+		</div>
+	</body>
+</html>

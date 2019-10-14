@@ -1,8 +1,6 @@
-let subredditInput = document.getElementById('subreddit-input');
-let subredditDisplay = document.getElementById('subreddit');
-
 function loadSubreddit() {
-	window.alert(subredditDisplay.attributes[0].name + ', ' + subredditDisplay.attributes[1].name + ', ' + subredditDisplay.attributes[2].name + ', ' + subredditDisplay.attributes[3].name)
-	subredditDisplay.attributes[2].value = 'politics';
-	window.alert('resdadasdasdafsdfe');
+	let subredditInput = document.getElementById('subreddit-input');
+	let subredditDisplay = document.getElementById('subreddit');
+	subredditDisplay.remove();
+	document.write("<script id='subreddit' src='https://redditjs.com/subreddit.js' data-subreddit='" + subredditInput.innerHTML + "' data-width='800' data-height='600'></script>")
 }

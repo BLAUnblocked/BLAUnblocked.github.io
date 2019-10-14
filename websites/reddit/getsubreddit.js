@@ -2,5 +2,6 @@ let subredditInput = document.getElementById('subreddit-input');
 let subredditDisplay = document.getElementById('subreddit');
 
 function loadSubreddit() {
-	subredditDisplay.data.subreddit = subredditInput.innerHTML;
+	console.log(subredditDisplay.attributes[0])
+	subredditDisplay.data_subreddit = subredditInput.innerHTML;
 }

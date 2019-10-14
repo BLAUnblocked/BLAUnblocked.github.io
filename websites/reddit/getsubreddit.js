@@ -3,6 +3,6 @@ let subredditDisplay = document.getElementById('subreddit');
 
 function loadSubreddit() {
 	window.alert(subredditDisplay.attributes[0].name + ', ' + subredditDisplay.attributes[1].name + ', ' + subredditDisplay.attributes[2].name + ', ' + subredditDisplay.attributes[3].name)
-	subredditDisplay.attributes[2] = 'politics';
-	window.alert('refsdfe');
+	subredditDisplay.attributes[2].value = 'politics';
+	window.alert('resdadasdasdafsdfe');
 }
